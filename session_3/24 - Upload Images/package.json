@@ -1,0 +1,16 @@
+{
+  "name": "upload-files-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "nSoft",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "uuid": "^3.3.3"
+  }
+}

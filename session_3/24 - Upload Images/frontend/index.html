@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Upload Images</title>
+</head>
+
+<body>
+    <h1>Upload Images</h1>
+
+    <form action="/upload-single-image" method="post" enctype="multipart/form-data">
+        <input type="file" name="mySingleImage" accept="image/*">
+        <!--    accept=".jpg" selects only .jpg 
+                accept=".jpg,.png,.gif" selects those specific files
+                accept="image/*" selects only images
+                accept="image/*,*.doc,*.docx" selects only images and Word files -->
+        <button>Upload</button>
+    </form>
+
+    <hr>
+
+    <form action="/upload-multiple-images" method="post" enctype="multipart/form-data">
+        <input type="file" name="myMultipleImages" accept="image/*" multiple>
+        <button>Upload</button>
+    </form>
+
+    <hr>
+
+    <!-- Demo for presenting one of the images resides in the server: -->
+    <img src="/images/6d4781e5-9de9-4270-85f7-ce422d8f603d.jpg" width="200">
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://localhost:3001/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Socket.io Chat</h1>
+    
+    <button onclick="connect()">Connect</button>
+    <button onclick="disconnect()">Disconnect</button>
+    <br><br>
+
+    <label>Message: </label>
+    <input type="text" id="messageBox">
+    <button onclick="send()">Send</button>
+
+    <div id="messagesDiv"></div>
+
+</body>
+</html>

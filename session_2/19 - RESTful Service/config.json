@@ -1,0 +1,12 @@
+{
+  "development": {
+    "database": {
+      "location": "./database/products.json"
+    }
+  },
+  "production": {
+    "database": {
+      "location": "./database/products.json"
+    }
+  }
+}

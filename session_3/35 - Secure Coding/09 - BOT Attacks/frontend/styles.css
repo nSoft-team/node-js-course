@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-color: lightcyan;
+    font-size: x-large;
+}
+
+nav {
+    text-align: left;
+}
+
+a {
+    color: blue;
+    display: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+h1 {
+    font-style: italic;
+}
+
+table {
+    margin: auto;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.products-table, .products-table th, .products-table td {
+    border: 1px solid blue;
+}
+
+.products-table td:first-of-type {
+    text-align: left;
+}
+
+.products-table tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+.products-table tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+.products-table thead > tr:first-child {
+    background-color: lightgray;
+}
+
+input, button {
+    width: 300px;
+    border: 1px solid black;
+    font-size: x-large;
+}
+
+label {
+    font-size: x-large;
+}
+
+#greetings {
+    position: absolute;
+    right: 20px;
+}
+
+textarea {
+    width: 296px;
+    border: 1px solid black;
+    font-size: x-large;
+    font-family: Arial;
+    resize: none;
+}
+
+form {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 15px;
+    font-size: small;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+#formMessage {
+    position: absolute;
+    left: 20px;
+}
+
+.card {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    background-color: lightgreen;
+    text-align: left;
+    overflow: auto;
+}

@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-size: x-large;
+}
+
+#divFlags {
+    text-align: left;
+}
+
+img {
+    width: 50px;
+    cursor: pointer;
+}

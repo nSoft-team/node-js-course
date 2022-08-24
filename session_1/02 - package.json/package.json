@@ -1,0 +1,11 @@
+{
+  "name": "package.json-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "nSoft",
+  "license": "ISC"
+}

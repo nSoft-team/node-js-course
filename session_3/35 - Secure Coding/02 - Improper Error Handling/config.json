@@ -1,0 +1,20 @@
+{
+  "development": {
+    "isProduction": false,
+    "mysql": {
+      "host": "localhost",
+      "user": "root",
+      "password": "",
+      "database": "northwind"
+    }
+  },
+  "production": {
+    "isProduction": true,
+    "mysql": {
+      "host": "",
+      "user": "",
+      "password": "",
+      "database": ""
+    }
+  }
+}

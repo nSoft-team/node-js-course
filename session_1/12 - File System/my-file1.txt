@@ -1,0 +1,4 @@
+Hello All!
+This is the second line.
+Bye...
+This line will be added to the file.

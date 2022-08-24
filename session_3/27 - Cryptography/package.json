@@ -1,0 +1,14 @@
+{
+  "name": "cryptography-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "nSoft",
+  "license": "ISC",
+  "dependencies": {
+    "cryptr": "^6.0.2"
+  }
+}

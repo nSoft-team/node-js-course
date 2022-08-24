@@ -1,0 +1,16 @@
+{
+  "development": {
+    "logFolder": "MyLogs",
+    "mysql": {
+      "database": "Northwind",
+      "password": "Kittens&Puppies"
+    }
+  },
+  "production": {
+    "logFolder": "CloudFiles/Logs",
+    "mysql": {
+      "database": "XRZ_Northwind_RJ67",
+      "password": "x85r&112pxy"
+    }
+  }
+}

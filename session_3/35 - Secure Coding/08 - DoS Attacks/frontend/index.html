@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="icon" type="image/jpeg" href="/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/auth.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="/home">Home</a><span> | </span>
+        <a href="/forum">Forum</a><span> | </span>
+        <a href="/products">Products</a><span> | </span>
+        <a href="/login">Login</a><span> | </span>
+        <a href="/register">Register</a>
+        <a href="/logout">Logout</a>
+        <span id="greetings"></span>
+    </nav>
+
+    <hr>
+
+    <h1>Northwind Website</h1>
+    <h2>Home</h2>
+
+    <img src="/logo.jpg">
+
+    <hr>
+    <button onclick="createDosAttack()">Create DoS Attack</button>
+    <script>
+        // Create 100 requests to get forum messages:
+        function createDosAttack() {
+            for (let i = 1; i <= 100; i++) {
+                $.ajax({ url: "/api/forum" });
+            }
+        }
+    </script>
+
+</body>
+
+</html>
