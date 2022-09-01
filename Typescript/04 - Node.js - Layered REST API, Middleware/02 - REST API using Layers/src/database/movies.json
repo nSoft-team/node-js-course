@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Kill Bill 2",
+    "year": 2005
+  },
+  {
+    "id": 2,
+    "name": "Pulp Fiction",
+    "year": 1995
+  },
+  {
+    "id": 3,
+    "name": "Spiderman",
+    "year": 2020
+  }
+]

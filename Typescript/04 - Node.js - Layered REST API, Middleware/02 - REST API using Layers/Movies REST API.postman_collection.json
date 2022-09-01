@@ -1,0 +1,102 @@
+{
+  "info": {
+    "_postman_id": "0570d0ef-2834-4320-bc33-877247a13f05",
+    "name": "Movies REST API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get all movies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3001/api/movies",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["api", "movies"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get one movie",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3001/api/movies/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["api", "movies", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add movie",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Matrix 4\",\r\n    \"year\": 2020\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3001/api/movies",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["api", "movies"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update movie",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Kill Bill 2\",\r\n    \"year\": 2005\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3001/api/movies/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["api", "movies", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete movie",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3001/api/movies/4",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["api", "movies", "4"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

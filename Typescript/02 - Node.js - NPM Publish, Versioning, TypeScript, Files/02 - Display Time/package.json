@@ -1,0 +1,16 @@
+{
+  "name": "display-time-by-nSoft-70",
+  "version": "1.0.1",
+  "description": "Displaying date and time on the console.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "time",
+    "date",
+    "now"
+  ],
+  "author": "nSoft",
+  "license": "ISC"
+}

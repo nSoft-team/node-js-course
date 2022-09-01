@@ -1,0 +1,9 @@
+Third Project - Moishe Ufnik
+  Backend
+  Frotnend
+  Database
+
+Delete node_modules From Backend and Frontend
+Zip the Main Folder
+Submit to Enabley
+

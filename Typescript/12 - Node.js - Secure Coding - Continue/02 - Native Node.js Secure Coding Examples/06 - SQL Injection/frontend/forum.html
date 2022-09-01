@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forum</title>
+    <link rel="icon" type="image/jpeg" href="/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/auth.js"></script>
+    <script src="/forum.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a href="/home">Home</a><span> | </span>
+        <a href="/forum">Forum</a><span> | </span>
+        <a href="/products">Products</a><span> | </span>
+        <a href="/login">Login</a><span> | </span>
+        <a href="/register">Register</a>
+        <a href="/logout">Logout</a>
+        <span id="greetings"></span>
+    </nav>
+    <hr>
+
+    <h1>Northwind Website</h1>
+    <h2>Forum</h2>
+
+    <form id="formMessage">
+
+        <input type="text" id="senderBox" placeholder="Name..." required autofocus>
+        <br><br>
+
+        <textarea id="textBox" placeholder="Text..." rows="3" required></textarea>
+        <br><br>
+
+        <button>Post</button>
+
+    </form>
+
+    <div id="container"></div>
+
+</body>
+
+</html>

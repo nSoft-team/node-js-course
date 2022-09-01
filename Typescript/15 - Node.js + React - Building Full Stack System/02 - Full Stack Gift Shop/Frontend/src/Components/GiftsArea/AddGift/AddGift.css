@@ -1,0 +1,24 @@
+.AddGift > form {
+	width: 250px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.AddGift input, .AddGift select {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.AddGift button {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.AddGift span {
+    color: white;
+    margin: 0 20px;
+    position: absolute;
+}

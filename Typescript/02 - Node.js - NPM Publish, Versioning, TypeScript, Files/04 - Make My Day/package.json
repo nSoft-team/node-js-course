@@ -1,0 +1,14 @@
+{
+  "name": "something-beautiful-by-nSoft-70",
+  "version": "1.0.0",
+  "description": "Print something beautiful on the console",
+  "main": "app.js",
+  "keywords": [
+    "beautiful"
+  ],
+  "author": "nSoft",
+  "license": "ISC",
+  "bin": {
+    "make-my-day": "app.js"
+  }
+}

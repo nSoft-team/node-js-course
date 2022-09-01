@@ -1,0 +1,17 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "author": "nSoft",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.13"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

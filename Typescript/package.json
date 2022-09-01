@@ -1,0 +1,23 @@
+{
+  "name": "node.js-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json,ts,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nSoft-team/node-js-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nSoft-team/node-js-typescript/issues"
+  },
+  "homepage": "https://github.com/nSoft-team/node-js-typescript#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

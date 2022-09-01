@@ -1,0 +1,10 @@
+.GiftList > table {
+	margin: 10px auto;
+    font-size: x-large;
+}
+
+.GiftList > table, .GiftList th, .GiftList td {
+    border: 1px solid black;
+}
+
+

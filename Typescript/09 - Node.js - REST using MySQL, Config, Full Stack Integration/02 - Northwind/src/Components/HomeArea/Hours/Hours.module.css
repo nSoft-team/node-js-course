@@ -1,0 +1,10 @@
+.CoolText {
+    font-size: larger;
+    color: magenta;
+    font-weight: bold;
+}
+
+.Smaller {
+    font-size: smaller;
+    color: gold;
+}

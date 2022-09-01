@@ -1,0 +1,20 @@
+.UpdateProduct > form {
+	width: 250px;
+}
+
+.UpdateProduct input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.UpdateProduct button {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.UpdateProduct span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+}
